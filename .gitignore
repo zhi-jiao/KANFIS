@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Research artifacts
+outputs/*
+!outputs/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt

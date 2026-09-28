@@ -1,0 +1,22 @@
+dataset: diabetes
+task: regression
+variant: it2
+test_size: 0.2
+random_state: 42
+model:
+  n_rules: 8
+  n_memberships: 3
+  n_layers: 1
+  membership: gaussian
+training:
+  learning_rate: 0.001
+  batch_size: 32
+  max_epochs: 100
+  validation_fraction: 0.2
+  patience: 15
+  min_delta: 0.0001
+  lambda_entropy: 0.01
+  lambda_distinct: 0.01
+  weight_decay: 0.01
+  device: cpu
+  verbose: 1

@@ -1,6 +1,4 @@
-# KANFIS
-
-KANFIS: A Neuro-Symbolic Framework for Interpretable and Uncertainty-Aware Learning
+# KANFIS: A Neuro-Symbolic Framework for Interpretable and Uncertainty-Aware Learning
 
 KANFIS is a compact research implementation of Type-1 KANFIS (IT1-KANFIS)
 and interval Type-2 KANFIS (IT2-KANFIS). It provides scikit-learn-style
